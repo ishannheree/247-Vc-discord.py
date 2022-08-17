@@ -1,5 +1,6 @@
 import discord
 from discord.utils import get
+import jishaku
 from discord.ext import commands 
 import datetime
 #variables
@@ -9,7 +10,7 @@ redtick = '<a:RedTick:945939442856775740>'
 enabled = '<:Enabled:973798736411103242>'
 reply3 = '<:reply3:1003377442553081887> '
 reply = '<:reply:991415922436886578> '
-token = 'add ur tuken' 
+token = 'your token' 
 prefix = '='
 # note add your id or bot will not work
 owner = [954314921208852511 , 992706007346196512]
@@ -111,7 +112,9 @@ async def online(ctx):
 async def ownercommand(ctx):
     await ctx.send(f""" ```Owner Commands```
     {reply3} owners
-    {reply3} ownerlist""")
+    {reply3} ownerlist
+    {reply3} loadjishaku
+    {reply3} unloadjishaku""")
 
 @client.command()
 @commands.is_owner()
@@ -122,5 +125,20 @@ async def owners(ctx):
 async def ownerlist(ctx):
     await ctx.send(f'**{reply3}owners - {str(owner)} **')
 
+
+@client.command()
+@commands.is_owner()
+async def loadjishaku(ctx):
+    await client.load_extension('jishaku')
+    await ctx.send(f' {tick} jishaku loaded')
+
+@client.command()
+@commands.is_owner()
+async def unloadjishaku(ctx):
+    await client.unload_extension('jishaku')
+    await ctx.send(f'{tick} jishaku unloaded')
+
 #enter your bot's tuken
+
+
 client.run(token)    
