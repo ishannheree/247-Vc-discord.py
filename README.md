@@ -33,5 +33,7 @@ prefix - =
 
    
 # HOW TO USE ?
-    <p>Add Your Owner Id In line - 16 or anywhere variable called owner = [] . </p>
-   <p> put your bot tuken nd run python file nd u go <3</p>
+    Add Your Owner Id In line - 16 or anywhere variable called owner = [] . 
+    put your bot tuken nd run python file nd u go <3
+                      
+                                                     
