@@ -10,7 +10,7 @@ redtick = '<a:RedTick:945939442856775740>'
 enabled = '<:Enabled:973798736411103242>'
 reply3 = '<:reply3:1003377442553081887> '
 reply = '<:reply:991415922436886578> '
-token = 'OTg2OTA1NjA3NzIwMjk2NTQ4.Gam97J.CpCMWonZJpuNl8e2qeiPEa80NYBqSP4DPLX5aY' 
+token = 'your bot tuken' 
 prefix = '='
 # note add your id or bot will not work
 owner = [954314921208852511 , 992706007346196512]
