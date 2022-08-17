@@ -8,22 +8,30 @@ prefix - =
 
 # COMMANDS 
 
-```html
-
-<h2>
+<h3
   connect to voice channel
   =connect
-</h2>
-<h2>
+</h3>
+<h3>
    leaves the voice channel
    =leave
-</h2>
-  <h2>
+</h3>
+  <h3>
    stay 247 connected to voice channel
    =online (247)
-</h2>
- <h2>
-   stay 247 connected to voice channel
-   =online (247)
-</h2>
-```
+</h3>
+ <h3>
+   shows ownercommands
+   =ownercommand
+</h3>
+
+# OWNER COMMADNS
+ <h3> =loadjishaku (loades jishaku) <\h3>
+ <h3>=unloadjishaku (Unloades Jishaku) <\h3>
+ <h3>=owners (owner count) <\h3>
+ <h3>=ownerlist (owner list = id of owner) <\h3>
+
+   
+# HOW TO USE ?
+    <p>Add Your Owner Id In line - 16 or anywhere variable called owner = [] . </p>
+   <p> put your bot tuken nd run python file nd u go <3</p>
